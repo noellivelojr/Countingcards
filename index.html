@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counting cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 id="title">Blacjack Card Counting</h2>
+            <h3 id="samp">Sample deck: <select id="sequence">
+            <option value="1">2, 3, 4, 5, 6</option>
+            <option value="2">7, 8, 9 </option>
+            <option value="3">10, J, Q, K, A</option>
+            <option value="4">3, 7, Q, 8, A </option>
+            <option value="5">2, J, 9, 2, 7 </option>
+            <option value="6">2, 2, 10 </option>
+            <option value="7">3, 2, A, 10, K </option>
+            </select></h3>
+            <h3 id="score">-----</h3>
+            <button id="btn1" onclick="cardCount1();">Click</button>
+            <button id="btn2" onclick="reset();">Reset</button>
+            <script src="app.js"></script> 
+        </div>
+    </div> 
+</body>
+</html>

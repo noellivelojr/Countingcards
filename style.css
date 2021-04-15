@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom right, #070707d4, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.631)),url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(to bottom right, #070707d4, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.631)),url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+.card{
+    width: 320px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.378);
+    margin:0 auto;
+    top: 27%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0, 4px, 8px, 0 rgba(0, 0, 0, 0.2), 0, 6px, 20px, 0 rgba(0, 0, 0, 0.19);
+}
+#title{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+#samp{
+    font-size: 16px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+#sequence{
+    margin-left: 22px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.289);
+    margin-bottom: 15px;
+}
+#score{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#btn1{
+    position: relative;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color:  rgba(74, 243, 65, 0.719);;
+    color: black;
+    width: 60px;
+    height: 20px;
+    border: 1px solid rgba(74, 243, 65, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .6s;
+    overflow: hidden;
+}
+#btn1:hover{
+    border: 1px rgba(0, 217, 255, 0.727);
+    background: rgba(0, 217, 255, 0.727);
+    cursor: pointer;
+}
+#btn1:hover::after{
+    transform: translate(150px) skew(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+#btn2{
+    position: relative;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    background-color:  rgba(233, 38, 38, 0.719);;
+    color: black;
+    width: 60px;
+    height: 20px;
+    border: 1px solid rgba(233, 38, 38, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .6s;
+    overflow: hidden;
+}
+#btn2:hover{
+    border: 1px rgba(169, 0, 0, 0.857);
+    background: rgba(169, 0, 0, 0.857);
+    cursor: pointer;
+}
+#btn2:hover::after{
+    transform: translate(150px) skew(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
